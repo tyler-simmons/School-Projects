@@ -1,0 +1,34 @@
+/*FORMATTING FOR CHAT PAGE*/
+
+.table {
+	margin-bottom: 54px;
+}
+
+td:first-child {
+	font-weight: bold;
+	width: 1%;
+    text-align: right;
+}
+
+/* FORMATTING FOR LOGIN PAGE */
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.row, .col-12, .container-fluid, #content {
+	height: 100%;
+}
+
+
+.parentTable {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.childCell {
+	display: table-cell;
+	vertical-align: middle;
+}
