@@ -1,0 +1,7 @@
+test
+document
+that
+should
+have
+seven
+lines

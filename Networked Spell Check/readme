@@ -1,0 +1,47 @@
+Tyler Simmons CIS 3207 Project 3
+
+How to use the spellchecker:
+
+	1. Run with arguments
+		server [arg1] [arg2]
+		
+		a) arg1: if there is a different dictionary besides the default supplied then
+		   put the file name as arg1. The server will open the file in read only
+		   or it will notify that the file does not exist and exit
+		
+		b) arg2: arg2 is the port to specify for the server to run on. The server
+		   will notify if invalid argument present
+		   
+		c) If the server is given no arguments it will run using the defualt dictionary
+		   (included in the archive) and it will use the default port for telnet (23).
+		   If only the dictionary is supplied then the server will try to accept it and
+		   then operate using default port.
+		   
+	2. Using the server with telnet
+	
+		a) For the sake of demonstration: the server can be connected to by using telnet 
+		   with the ip address 127.0.0.1 (loopback) NOTE: Clients will not be able to 
+		   connect without using the port that server is running on or connection will
+		   be refused through telnet
+		   
+		b) Once a connection to server is established, the server will notify user if 
+		   it is ready to start servicing spellcheck requests. If it is busy servicing
+		   other clients, the client will be placed in a queue and notified when the
+		   server is ready
+		   
+		c) At this point the user can give the server spell check request by typing 
+		   the word to be checked into the terminal and pressing enter.
+		   The server will respond with an echo of the word inputted with either: 
+		   ***OK*** - word is spelled corectly
+		   ***MISSPELLED*** - the word is spelled incorrectly
+		   At this point, the user may enter additional words to be spell chekced. The
+		   server will reamin connected and waiting for words until the telnet connection
+		   is closed
+		   
+Test Cases:
+
+	See the folder labelled "test cases" included in the archive 
+		   
+		   
+		   
+			
