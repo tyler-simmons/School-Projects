@@ -2,6 +2,11 @@
 1. Encrypted Web Chatroom
    * Java
    * HTML, CSS, Javascript
-2. Unix FAT32 File System
+1. Unix FAT32 File System
     * C
-3. 
+1. Unix Socket Networked Spell Checker
+    * C
+1. Processor Scheduler Simulation
+    * C
+1. Unix Shell
+    * c
